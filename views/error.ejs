@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= statusCode %> – Error</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="/js/darkmode.js"></script>
+</head>
+<body>
+  <div class="container error-box">
+
+    <header>
+      <h1><i class="fas fa-triangle-exclamation"></i> <%= statusCode %> Error</h1>
+      <p><%= message || "An unexpected error occurred." %></p>
+      <%- include('partials/darkmode_toggle') %>
+    </header>
+
+    <% if (statusCode === 404) { %>
+      <section>
+        <h2><i class="fas fa-search-minus"></i> Page Not Found</h2>
+        <p>Oops! The page you're looking for doesn't exist. You can try searching or go back to the homepage.</p>
+        <div class="search-box">
+          <form>
+            <input type="text" placeholder="Search the hospital system..." aria-label="Search the site" />
+            <button type="submit"><i class="fas fa-search"></i> Search</button>
+          </form>
+        </div>
+      </section>
+    <% } else { %>
+      <section>
+        <h2><i class="fas fa-tools"></i> Something Went Wrong</h2>
+        <p>Please try again later or contact the system administrator if the issue continues.</p>
+      </section>
+    <% } %>
+
+    <section class="faq-section">
+      <h3><i class="fas fa-question-circle"></i> Common Troubleshooting</h3>
+      <ul>
+        <li>📶 <strong>Check your internet connection.</strong></li>
+        <li>🕒 <strong>Try refreshing the page after a few moments.</strong></li>
+        <li>🧼 <strong>Clear your browser cache or cookies.</strong></li>
+        <li>💬 <strong>Contact the administrator if this happens repeatedly.</strong></li>
+      </ul>
+    </section>
+
+    <div class="button-box">
+      <a href="/" class="btn">🏠 Back to Homepage</a>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Arshad Aslam – CMP216 Web Applications and Cloud Services</p>
+    </footer>
+
+  </div>
+</body>
+</html>

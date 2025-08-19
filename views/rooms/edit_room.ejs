@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>✏️ Edit Room – MedEase</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Styles and Scripts -->
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script defer src="/js/darkmode.js"></script>
+</head>
+<body>
+<div class="container">
+<!-- Header Section -->
+<header>
+<h1><i class="fas fa-edit"></i> Edit Room</h1>
+<p>Update the details of this hospital room in the MedEase system.</p>
+<%- include('../partials/darkmode_toggle.ejs') %>
+</header>
+<!-- Main Form Section -->
+<main>
+<form action="/rooms/<%= room._id %>?_method=PUT" method="POST" class="form-card" aria-label="Edit room form">
+<!-- Room Number -->
+<label for="roomNumber">
+<i class="fas fa-door-closed"></i> Room Number:
+</label>
+<input
+         type="text"
+         id="roomNumber"
+         name="roomNumber"
+         value="<%= room.roomNumber %>"
+         required
+         aria-required="true"
+>
+<!-- Room Type -->
+<label for="type">
+<i class="fas fa-tag"></i> Room Type:
+</label>
+<select name="type" id="type" required aria-required="true">
+<option value="General" <%= room.type === 'General' ? 'selected' : '' %>>🏥 General</option>
+<option value="ICU" <%= room.type === 'ICU' ? 'selected' : '' %>>🧠 ICU</option>
+<option value="Maternity" <%= room.type === 'Maternity' ? 'selected' : '' %>>🤰 Maternity</option>
+<option value="Paediatric" <%= room.type === 'Paediatric' ? 'selected' : '' %>>🧸 Paediatric</option>
+</select>
+<!-- Occupied Checkbox -->
+<label for="isOccupied" class="checkbox-label">
+<input
+           type="checkbox"
+           id="isOccupied"
+           name="isOccupied"
+<%= room.isOccupied ? 'checked' : '' %>
+>
+<i class="fas fa-user-check"></i> Room is currently occupied
+</label>
+<!-- Action Buttons -->
+<div class="button-group" style="margin-top: 20px;">
+<button type="submit" class="btn primary">
+<i class="fas fa-save"></i> Update Room
+</button>
+<a href="/rooms" class="btn back">
+<i class="fas fa-arrow-left"></i> Back to Rooms
+</a>
+<a href="/" class="btn home">
+<i class="fas fa-home"></i> Back to Home
+</a>
+</div>
+</form>
+</main>
+<!-- Footer -->
+<footer>
+<p>&copy; 2025 Arshad Aslam – CMP216 Web Applications and Cloud Services</p>
+</footer>
+</div>
+</body>
+</html>

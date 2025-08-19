@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>👥 All Patients – MedEase</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script defer src="/js/darkmode.js"></script>
+</head>
+<body>
+<div class="container">
+<header>
+<h1><i class="fas fa-user-injured"></i> All Patients</h1>
+<p>Browse and manage all registered patients in the MedEase system.</p>
+<%- include('../partials/darkmode_toggle.ejs') %>
+</header>
+<div class="button-group" style="text-align: center; margin: 20px 0;">
+<a href="/patients/new" class="btn add"><i class="fas fa-user-plus"></i> Add New Patient</a>
+<a href="/" class="btn home"><i class="fas fa-home"></i> Back to Home</a>
+</div>
+<% if (patients.length === 0) { %>
+<p class="notice" role="alert">⚠️ No patients currently registered. Please add a patient to begin.</p>
+<% } else { %>
+<div class="table-container">
+<table class="table" aria-label="List of all patients">
+<thead>
+<tr>
+<th><i class="fas fa-id-badge"></i> Full Name</th>
+<th><i class="fas fa-hourglass-half"></i> Age</th>
+<th><i class="fas fa-venus-mars"></i> Gender</th>
+<th><i class="fas fa-phone-alt"></i> Contact</th>
+<th><i class="fas fa-cogs"></i> Actions</th>
+</tr>
+</thead>
+<tbody>
+<% patients.forEach(patient => { %>
+<tr>
+<td><%= patient.name || 'N/A' %></td>
+<td><%= patient.age !== undefined ? patient.age : 'N/A' %></td>
+<td><%= patient.gender || 'N/A' %></td>
+<td><%= patient.contactNumber || 'N/A' %></td>
+<td>
+<a href="/patients/<%= patient._id %>" class="btn view" aria-label="View patient details">
+<i class="fas fa-eye"></i> View
+</a>
+<a href="/patients/<%= patient._id %>/edit" class="btn edit" aria-label="Edit patient details">
+<i class="fas fa-pen"></i> Edit
+</a>
+</td>
+</tr>
+<% }) %>
+</tbody>
+</table>
+</div>
+<% } %>
+<footer>
+<p>&copy; 2025 Arshad Aslam – CMP216 Web Applications and Cloud Services</p>
+</footer>
+</div>
+</body>
+</html>

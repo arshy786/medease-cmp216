@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🏥 MedEase – Smart Hospital Management</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script defer src="/js/darkmode.js"></script>
+</head>
+<body>
+<div class="container">
+<!-- ✅ Header -->
+<header class="homepage-header">
+<h1 class="brand-logo" aria-label="MedEase Hospital Management Logo">🏥 MedEase</h1>
+<p class="tagline">Smart Hospital Management System – Simplifying Healthcare Tasks</p>
+<%- include('partials/darkmode_toggle') %>
+</header>
+<!-- ✅ Flash Messages -->
+<% if (success_msg) { %>
+<div class="flash-message success"><%= success_msg %></div>
+<% } %>
+<% if (error_msg) { %>
+<div class="flash-message error"><%= error_msg %></div>
+<% } %>
+<!-- ✅ Hero Section -->
+<section class="hero">
+<h2>Welcome to <span class="highlight">MedEase</span></h2>
+<p>Effortlessly manage your hospital’s patients and room assignments with a clean, secure and user-friendly platform.</p>
+</section>
+<!-- ✅ Quick Access Dashboard -->
+<section aria-label="Dashboard quick access">
+<h2 class="section-heading">🏁 Quick Access</h2>
+<div class="dashboard">
+<div class="card" role="button">
+<a href="/patients" aria-label="View all patients">
+<i class="fas fa-users fa-2x"></i>
+<h3>View All Patients</h3>
+</a>
+</div>
+<div class="card" role="button">
+<a href="/patients/new" aria-label="Add a new patient">
+<i class="fas fa-user-plus fa-2x"></i>
+<h3>Add New Patient</h3>
+</a>
+</div>
+<div class="card" role="button">
+<a href="/rooms" aria-label="View all rooms">
+<i class="fas fa-procedures fa-2x"></i>
+<h3>View All Rooms</h3>
+</a>
+</div>
+<div class="card" role="button">
+<a href="/rooms/new" aria-label="Add a new room">
+<i class="fas fa-bed fa-2x"></i>
+<h3>Add New Room</h3>
+</a>
+</div>
+<div class="card" role="button">
+<a href="/about" aria-label="Learn more about MedEase">
+<i class="fas fa-info-circle fa-2x"></i>
+<h3>About MedEase</h3>
+</a>
+</div>
+</div>
+</section>
+<!-- ✅ Footer -->
+<footer>
+<p>&copy; 2025 Arshad Aslam – CMP216 Web Applications and Cloud Services</p>
+</footer>
+</div>
+</body>
+</html>
+ 

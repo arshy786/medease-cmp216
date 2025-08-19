@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ℹ️ About Us – MedEase</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script defer src="/js/darkmode.js"></script>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>🩺 About MedEase</h1>
+<p>Improving hospital efficiency through technology and simplicity.</p>
+<%- include('partials/darkmode_toggle') %>
+</header>
+<section>
+<h2><i class="fas fa-project-diagram"></i> Project Overview</h2>
+<p>
+<strong>MedEase</strong> is an intelligent hospital management system created as part of the
+<em>CMP216: Web Applications and Cloud Services</em> module at Newcastle College University Centre.
+       This system was developed by <strong>Arshad Aslam</strong> in 2025 to showcase practical skills in full-stack
+       development, UI/UX design, cloud integration, and accessibility.
+</p>
+</section>
+<section>
+<h2><i class="fas fa-bullseye"></i> Purpose</h2>
+<p>
+       MedEase aims to support hospitals and clinics with an intuitive and reliable platform for managing
+       patients and room allocations. Designed for healthcare staff with minimal technical knowledge, the
+       application prioritises usability, responsiveness, and visual clarity.
+</p>
+</section>
+<section>
+<h2><i class="fas fa-star"></i> Key Features</h2>
+<ul>
+<li>📝 Add, edit, view, and delete patient records</li>
+<li>🛏️ Full hospital room management with occupancy controls</li>
+<li>🌐 MongoDB Atlas for secure, cloud-based data handling</li>
+<li>🌗 Dark mode toggle with persistent localStorage setting</li>
+<li>🚨 Error logging using Winston and custom 404/500 pages</li>
+<li>📱 Fully responsive design across all screen sizes</li>
+</ul>
+</section>
+<section>
+<h2><i class="fas fa-cogs"></i> Technologies Used</h2>
+<ul>
+<li><strong>Node.js & Express.js</strong> – Backend server and routing framework</li>
+<li><strong>MongoDB Atlas</strong> – Cloud-based NoSQL database</li>
+<li><strong>EJS</strong> – Dynamic HTML rendering with embedded JavaScript</li>
+<li><strong>CSS3</strong> – Custom responsive styling and dark mode support</li>
+<li><strong>Font Awesome</strong> – Iconography for improved user interface</li>
+<li><strong>Docker</strong> – Optional containerisation for development and deployment</li>
+</ul>
+</section>
+<section>
+<h2><i class="fab fa-docker"></i> Docker Integration</h2>
+<p>
+       MedEase includes optional <strong>Docker</strong> support, allowing the entire app and database to be
+       containerised and run seamlessly across different environments.
+</p>
+<p>To run using Docker Compose:</p>
+<pre><code>docker-compose up --build</code></pre>
+<p>
+       This makes the application portable and ideal for cloud deployment or demonstration.
+</p>
+</section>
+<section>
+<h2><i class="fas fa-user"></i> Developer</h2>
+<p>
+<strong>Arshad Aslam</strong><br>
+       Foundation Degree in Software Engineering<br>
+       Newcastle College University Centre<br>
+       Academic Year: 2024–2025
+</p>
+</section>
+<section>
+<h2><i class="fas fa-envelope"></i> Contact Information</h2>
+<p>
+<strong>Email:</strong> info@medease.co.uk<br>
+<strong>Telephone:</strong> 0191 234 5678<br>
+<strong>Address:</strong> MedEase Ltd, 12 Heaton Business Park, Newcastle upon Tyne, NE6 5XL
+</p>
+</section>
+<div style="text-align: center; margin: 40px 0;">
+<a href="/" class="btn">⬅️ Back to Home</a>
+</div>
+<footer>
+<p>&copy; 2025 Arshad Aslam – CMP216 Web Applications and Cloud Services</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>✏️ Edit Patient – MedEase</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script defer src="/js/darkmode.js"></script>
+</head>
+<body>
+<div class="container">
+<header>
+<h1><i class="fas fa-user-edit"></i> Edit Patient Details</h1>
+<p>Update information for this registered patient in the MedEase system.</p>
+<%- include('../partials/darkmode_toggle.ejs') %>
+</header>
+<form action="/patients/<%= patient._id %>" method="POST" class="form-card" aria-label="Edit patient form">
+<label for="name"><i class="fas fa-user"></i> Full Name:</label>
+<input type="text" name="name" id="name" value="<%= patient.name %>" placeholder="e.g. John Smith" autocomplete="name" required />
+<label for="age"><i class="fas fa-hourglass-half"></i> Age:</label>
+<input type="number" name="age" id="age" value="<%= patient.age %>" min="0" placeholder="e.g. 45" autocomplete="off" required />
+<label for="gender"><i class="fas fa-venus-mars"></i> Gender:</label>
+<select name="gender" id="gender" required>
+<option value="">-- Select Gender --</option>
+<option value="Male" <%= patient.gender === 'Male' ? 'selected' : '' %>>♂️ Male</option>
+<option value="Female" <%= patient.gender === 'Female' ? 'selected' : '' %>>♀️ Female</option>
+<option value="Other" <%= patient.gender === 'Other' ? 'selected' : '' %>>🧬 Other</option>
+</select>
+<label for="contactNumber"><i class="fas fa-phone-alt"></i> Contact Number:</label>
+<input type="tel" name="contactNumber" id="contactNumber" value="<%= patient.contactNumber %>" pattern="[0-9\s+]+" placeholder="e.g. 07123 456789" autocomplete="tel" required />
+<label for="address"><i class="fas fa-map-marker-alt"></i> Address:</label>
+<textarea name="address" id="address" rows="3" placeholder="e.g. 123 Example Street, Newcastle" autocomplete="street-address" required><%= patient.address %></textarea>
+<div class="button-group" style="text-align: center; margin-top: 20px;">
+<button type="submit" class="btn"><i class="fas fa-save"></i> Save Changes</button>
+<a href="/patients" class="btn back"><i class="fas fa-times"></i> Cancel</a>
+</div>
+</form>
+<footer>
+<p>&copy; 2025 Arshad Aslam – CMP216 Web Applications and Cloud Services</p>
+</footer>
+</div>
+</body>
+</html>

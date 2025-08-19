@@ -1,0 +1,446 @@
+[2025-08-19 00:58:50] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 00:58:50] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 00:59:03] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\patients\all_patients.ejs:22
+    20|         </label>
+    21|         <span>🌙 Dark Mode</span>
+ >> 22|         <%- include('partials/darkmode_toggle') %>
+    23| 
+    24|       </div>
+    25|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 00:59:07] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\patients\new_patient.ejs:22
+    20|         </label>
+    21|         <span>🌙 Dark Mode</span>
+ >> 22|         <%- include('partials/darkmode_toggle') %>
+    23|       </div>
+    24|     </header>
+    25| 
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 00:59:10] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\all_rooms.ejs:23
+    21|         </label>
+    22|         <span>🌙 Dark Mode</span>
+ >> 23|         <%- include('partials/darkmode_toggle') %>
+    24| 
+    25|       </div>
+    26|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 00:59:12] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\new_room.ejs:23
+    21|         </label>
+    22|         <span>🌙 Dark Mode</span>
+ >> 23|         <%- include('partials/darkmode_toggle') %>
+    24| 
+    25|       </div>
+    26|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 00:59:15] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 00:59:15] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:08:19] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:08:19] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:08:20] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:08:20] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:08:22] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\patients\new_patient.ejs:22
+    20|         </label>
+    21|         <span>🌙 Dark Mode</span>
+ >> 22|         <%- include('partials/darkmode_toggle') %>
+    23|       </div>
+    24|     </header>
+    25| 
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 01:08:25] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:08:25] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:08:26] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\patients\all_patients.ejs:22
+    20|         </label>
+    21|         <span>🌙 Dark Mode</span>
+ >> 22|         <%- include('partials/darkmode_toggle') %>
+    23| 
+    24|       </div>
+    25|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 01:08:28] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:08:28] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:08:29] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\all_rooms.ejs:23
+    21|         </label>
+    22|         <span>🌙 Dark Mode</span>
+ >> 23|         <%- include('partials/darkmode_toggle') %>
+    24| 
+    25|       </div>
+    26|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 01:08:31] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:08:31] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:08:32] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\new_room.ejs:23
+    21|         </label>
+    22|         <span>🌙 Dark Mode</span>
+ >> 23|         <%- include('partials/darkmode_toggle') %>
+    24| 
+    25|       </div>
+    26|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 01:08:33] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:08:33] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:11:30] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\new_room.ejs:23
+    21|         </label>
+    22|         <span>🌙 Dark Mode</span>
+ >> 23|         <%- include('partials/darkmode_toggle') %>
+    24| 
+    25|       </div>
+    26|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 01:11:32] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:11:32] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:11:33] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:11:33] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:11:33] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:11:33] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:11:38] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:11:38] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:11:40] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\all_rooms.ejs:23
+    21|         </label>
+    22|         <span>🌙 Dark Mode</span>
+ >> 23|         <%- include('partials/darkmode_toggle') %>
+    24| 
+    25|       </div>
+    26|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 01:11:41] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:11:41] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:11:42] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\patients\new_patient.ejs:22
+    20|         </label>
+    21|         <span>🌙 Dark Mode</span>
+ >> 22|         <%- include('partials/darkmode_toggle') %>
+    23|       </div>
+    24|     </header>
+    25| 
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 01:11:44] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:11:44] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:35] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:17:35] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:35] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:17:35] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:43] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:17:43] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:43] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:17:43] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:44] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:17:44] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:44] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:17:44] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:44] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:17:44] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:45] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:17:45] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:45] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:17:45] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:45] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:17:45] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:49] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:17:49] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:17:49] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:17:49] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:46:57] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 01:46:57] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:46:57] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 01:46:57] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 01:50:31] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\patients\new_patient.ejs:16
+    14|       <p>Please fill in the form below to register a new patient into the MedEase system.</p>
+    15| 
+ >> 16|       <%- include('partials/darkmode_toggle') %>
+    17|     </header>
+    18| 
+    19| 
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 02:02:13] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\patients\new_patient.ejs:16
+    14|       <p>Please fill in the form below to register a new patient into the MedEase system.</p>
+    15| 
+ >> 16|       <%- include('partials/darkmode_toggle') %>
+    17|     </header>
+    18| 
+    19| 
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 02:02:41] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:02:41] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:17] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\new_room.ejs:16
+    14|       <h1><i class="fas fa-door-open"></i> Add a New Room</h1>
+    15|       <p>Register a hospital room to the MedEase system.</p>
+ >> 16|       <%- include('partials/darkmode_toggle') %>
+    17|     </header>
+    18| 
+    19|     <main>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 02:03:18] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:18] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:19] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\patients\new_patient.ejs:16
+    14|       <p>Please fill in the form below to register a new patient into the MedEase system.</p>
+    15| 
+ >> 16|       <%- include('partials/darkmode_toggle') %>
+    17|     </header>
+    18| 
+    19| 
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 02:03:20] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:20] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:21] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\all_rooms.ejs:23
+    21|         </label>
+    22|         <span>🌙 Dark Mode</span>
+ >> 23|         <%- include('partials/darkmode_toggle') %>
+    24| 
+    25|       </div>
+    26|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 02:03:24] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:24] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:25] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 02:03:25] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:25] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:25] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:38] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:38] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:40] ERROR: 404 - Page Not Found - /js/darkmode.js
+[2025-08-19 02:03:40] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:40] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:40] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:41] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:41] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:43] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\new_room.ejs:16
+    14|       <h1><i class="fas fa-door-open"></i> Add a New Room</h1>
+    15|       <p>Register a hospital room to the MedEase system.</p>
+ >> 16|       <%- include('partials/darkmode_toggle') %>
+    17|     </header>
+    18| 
+    19|     <main>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 02:03:44] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:44] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 02:03:45] ERROR: 500 - Server Error - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\all_rooms.ejs:23
+    21|         </label>
+    22|         <span>🌙 Dark Mode</span>
+ >> 23|         <%- include('partials/darkmode_toggle') %>
+    24| 
+    25|       </div>
+    26|     </header>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 02:03:46] ERROR: 404 - Page Not Found - /favicon.ico
+[2025-08-19 02:03:46] ERROR: 500 - Server Error - Could not find matching close tag for "<%=".
+[2025-08-19 15:55:37] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 15:55:37] ERROR: 404 - Not Found - /favicon.ico
+[2025-08-19 15:55:48] ERROR: 500 - C:\Users\arsha\Desktop\hospital-management-system\views\patients\all_patients.ejs:16
+    14|       <h1><i class="fas fa-user-injured"></i> All Patients</h1>
+    15|       <p>Browse and manage all registered patients in the MedEase system.</p>
+ >> 16|       <%- include('partials/darkmode_toggle') %>
+    17|     </header>
+    18| 
+    19|     <div class="button-group" style="text-align: center; margin: 20px 0;">
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 15:55:48] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 15:55:56] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 15:55:58] ERROR: 500 - C:\Users\arsha\Desktop\hospital-management-system\views\patients\new_patient.ejs:17
+    15|       <h1><i class="fas fa-user-plus"></i> Add New Patient</h1>
+    16|       <p>Please fill in the form below to register a new patient into the MedEase system.</p>
+ >> 17|       <%- include('partials/darkmode_toggle') %>
+    18|     </header>
+    19| 
+    20|     <form action="/patients" method="POST" class="form-card" aria-label="Add new patient form">
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 15:55:58] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 15:56:03] ERROR: 500 - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\all_rooms.ejs:17
+    15|       <h1><i class="fas fa-procedures"></i> All Hospital Rooms</h1>
+    16|       <p>Browse and manage all registered rooms within the MedEase system.</p>
+ >> 17|       <%- include('partials/darkmode_toggle') %>
+    18|     </header>
+    19| 
+    20|     <section style="text-align: center; margin: 20px 0;">
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 15:56:03] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 15:56:06] ERROR: 500 - C:\Users\arsha\Desktop\hospital-management-system\views\rooms\new_room.ejs:17
+    15|       <h1><i class="fas fa-door-open"></i> Add a New Room</h1>
+    16|       <p>Register a hospital room to the MedEase system.</p>
+ >> 17|       <%- include('partials/darkmode_toggle') %>
+    18|     </header>
+    19| 
+    20|     <main>
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 15:56:06] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 15:56:09] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 15:56:13] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 15:58:55] ERROR: 500 - C:\Users\arsha\Desktop\hospital-management-system\views\patients\all_patients.ejs:16
+    14|       <h1><i class="fas fa-user-injured"></i> All Patients</h1>
+    15|       <p>Browse and manage all registered patients in the MedEase system.</p>
+ >> 16|       <%- include('partials/darkmode_toggle') %>
+    17|     </header>
+    18| 
+    19|     <div class="button-group" style="text-align: center; margin: 20px 0;">
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 15:58:55] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:06:03] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:06:06] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:06:09] ERROR: 500 - C:\Users\arsha\Desktop\hospital-management-system\views\patients\new_patient.ejs:17
+    15|       <h1><i class="fas fa-user-plus"></i> Add New Patient</h1>
+    16|       <p>Please fill in the form below to register a new patient into the MedEase system.</p>
+ >> 17|       <%- include('partials/darkmode_toggle') %>
+    18|     </header>
+    19| 
+    20|     <form action="/patients" method="POST" class="form-card" aria-label="Add new patient form">
+
+Could not find the include file "partials/darkmode_toggle"
+[2025-08-19 16:06:09] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:20:58] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:20:59] ERROR: 404 - Not Found - /favicon.ico
+[2025-08-19 16:21:00] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:21:04] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:21:08] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:21:12] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:21:38] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:21:46] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:22:48] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:22:53] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:22:56] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:23:01] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:23:02] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:23:06] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:23:10] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:23:34] ERROR: 404 - Not Found - /rooms/add
+[2025-08-19 16:23:34] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:24:12] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:24:15] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:24:35] ERROR: 404 - Not Found - /rooms/add
+[2025-08-19 16:24:35] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:41:55] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:41:55] ERROR: 404 - Not Found - /favicon.ico
+[2025-08-19 16:41:58] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:05] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:08] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:24] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:31] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:36] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:38] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:42] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:49] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:42:56] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:44:21] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:44:24] ERROR: 404 - Not Found - /rooms/68a49b67de66d9a4795c182d/edit
+[2025-08-19 16:44:24] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:44:31] ERROR: 404 - Not Found - /rooms/68a49b67de66d9a4795c182d/edit
+[2025-08-19 16:44:31] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:44:40] ERROR: 404 - Not Found - /rooms/68a49b67de66d9a4795c182d/edit
+[2025-08-19 16:44:40] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:46:18] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:46:20] ERROR: 404 - Not Found - /patients/edit/68a496c81993065e9d7383f7
+[2025-08-19 16:46:20] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:46:25] ERROR: 404 - Not Found - /patients/edit/68a496c81993065e9d7383f7
+[2025-08-19 16:46:25] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:46:46] ERROR: 404 - Not Found - /patients/view/68a496c81993065e9d7383f7
+[2025-08-19 16:46:46] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:47:07] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:47:08] ERROR: 404 - Not Found - /rooms/68a49b67de66d9a4795c182d
+[2025-08-19 16:47:08] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:47:15] ERROR: 404 - Not Found - /rooms/68a49b67de66d9a4795c182d/edit
+[2025-08-19 16:47:15] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:47:19] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:47:21] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:47:25] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:48:38] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:48:40] ERROR: 404 - Not Found - /patients/view/68a49cd6de66d9a4795c1836
+[2025-08-19 16:48:40] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:48:49] ERROR: 404 - Not Found - /patients/view/68a496c81993065e9d7383f7
+[2025-08-19 16:48:49] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:48:52] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:48:54] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:48:59] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:49:03] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:49:09] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:49:12] ERROR: 404 - Not Found - /rooms/68a49b67de66d9a4795c182d
+[2025-08-19 16:49:12] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:50:10] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:50:29] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:50:33] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:50:35] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:50:38] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:50:56] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 16:50:59] ERROR: 404 - Not Found - /rooms/68a49b67de66d9a4795c182d/edit
+[2025-08-19 16:50:59] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:02:44] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:02:45] ERROR: 404 - Not Found - /favicon.ico
+[2025-08-19 17:02:47] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:02:48] ERROR: 404 - Not Found - /patients/view/68a496c81993065e9d7383f7
+[2025-08-19 17:02:48] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:02:54] ERROR: 404 - Not Found - /patients/edit/68a496c81993065e9d7383f7
+[2025-08-19 17:02:54] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:02:58] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:01] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:03] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:13] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:20] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:31] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:34] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:35] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:37] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:39] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:45] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:03:46] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:04:05] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:04:10] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:04:17] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:04:20] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:04:21] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:04:30] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:04:42] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:04:59] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:01] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:02] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:05] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:16] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:18] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:19] ERROR: 404 - Not Found - /patients/view/68a496c81993065e9d7383f7
+[2025-08-19 17:05:19] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:23] ERROR: 404 - Not Found - /patients/view/68a49cd6de66d9a4795c1836
+[2025-08-19 17:05:23] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:29] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:32] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:40] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:46] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:05:50] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:06:12] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:06:16] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:06:22] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:06:25] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:06:34] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:06:49] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:06:51] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:06:57] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:07:00] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:07:03] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:07:12] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:07:17] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:07:19] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:07:26] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:08:49] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:08:52] ERROR: 404 - Not Found - /patients/view/68a496c81993065e9d7383f7
+[2025-08-19 17:08:52] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:09:30] ERROR: 404 - Not Found - /patients/view/68a496c81993065e9d7383f7
+[2025-08-19 17:09:30] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 17:10:25] ERROR: 404 - Not Found - /patients/edit/68a496c81993065e9d7383f7
+[2025-08-19 17:10:25] ERROR: 404 - Not Found - /js/darkmode.js
