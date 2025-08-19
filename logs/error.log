@@ -444,3 +444,121 @@ Could not find the include file "partials/darkmode_toggle"
 [2025-08-19 17:09:30] ERROR: 404 - Not Found - /js/darkmode.js
 [2025-08-19 17:10:25] ERROR: 404 - Not Found - /patients/edit/68a496c81993065e9d7383f7
 [2025-08-19 17:10:25] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:07:05] ERROR: MongoDB Connection Error: getaddrinfo ENOTFOUND mongo
+[2025-08-19 22:34:58] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:35:09] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:35:21] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:35:34] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:35:46] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:35:58] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:36:10] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:36:26] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:36:45] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:36:58] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:37:10] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:37:22] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:37:35] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:37:47] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:37:59] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:38:11] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:38:24] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:38:36] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:38:48] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:39:00] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:39:12] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:39:24] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:39:36] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:39:48] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:40:00] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:40:12] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:40:24] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:40:37] ERROR: MongoDB Connection Error: Authentication failed.
+[2025-08-19 22:52:44] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:52:45] ERROR: 404 - Not Found - /favicon.ico
+[2025-08-19 22:52:49] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:52:53] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:52:57] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:52:57] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:52:59] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:01] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:53:01] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:02] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:03] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:06] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:22] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:24] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:29] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:33] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:34] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:53:34] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:37] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:40] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:42] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:48] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:53:48] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:50] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:53:55] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:53:55] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:54:22] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:54:23] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:54:23] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:54:30] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:54:39] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:54:51] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:54:51] ERROR: 404 - Not Found - /js/darkmode.js

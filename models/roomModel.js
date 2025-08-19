@@ -1,7 +1,5 @@
 // models/roomModel.js
-
 const mongoose = require('mongoose');
-
 const roomSchema = new mongoose.Schema({
   roomNumber: {
     type: String,
@@ -28,7 +26,5 @@ const roomSchema = new mongoose.Schema({
     default: Date.now
   }
 });
-
 // Add virtuals or indexes here if needed in future
-
 module.exports = mongoose.model('Room', roomSchema);
