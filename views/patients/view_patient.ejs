@@ -23,7 +23,7 @@
 <p><strong><i class="fas fa-map-marker-alt"></i> Address:</strong> <%= patient.address || 'N/A' %></p>
 </section>
 <section class="button-group" style="text-align: center; margin: 20px 0;">
-<a href="/patients/edit/<%= patient._id %>" class="btn edit" aria-label="Edit this patient's details">
+<a href="/patients/<%= patient._id %>/edit" class="btn edit" aria-label="Edit this patient's details">
 <i class="fas fa-pen"></i> Edit Patient
 </a>
 <form action="/patients/<%= patient._id %>?_method=DELETE" method="POST" style="display: inline;" aria-label="Delete patient form">

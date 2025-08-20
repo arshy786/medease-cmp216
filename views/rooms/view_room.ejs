@@ -14,7 +14,7 @@
 <!-- Header -->
 <header>
 <h1><i class="fas fa-bed"></i> Room Details</h1>
-<p>Here you can view details of a hospital room stored in the MedEase system.</p>
+<p>Here you can view the full details of this hospital room in the MedEase system.</p>
 <%- include('../partials/darkmode_toggle.ejs') %>
 </header>
 <!-- Room Info Card -->
@@ -24,21 +24,24 @@
 <p><strong><i class="fas fa-tag"></i> Type:</strong> <%= room.type %></p>
 <p><strong><i class="fas fa-user-check"></i> Occupied:</strong> <%= room.isOccupied ? 'Yes' : 'No' %></p>
 <p><strong><i class="fas fa-calendar-alt"></i> Created On:</strong> <%= room.createdAt.toDateString() %></p>
+<% if (room.assignedPatient) { %>
+<p><strong><i class="fas fa-user"></i> Assigned Patient:</strong> <%= room.assignedPatient.name || 'N/A' %></p>
+<% } %>
 </section>
 <!-- Action Buttons -->
 <div class="button-group" style="text-align: center; margin-top: 20px;">
-<a href="/rooms/<%= room._id %>/edit" class="btn edit">
+<a href="/rooms/<%= room._id %>/edit" class="btn edit" aria-label="Edit room">
 <i class="fas fa-edit"></i> Edit Room
 </a>
 <form action="/rooms/<%= room._id %>?_method=DELETE" method="POST" style="display:inline;">
-<button type="submit" class="btn delete" onclick="return confirm('Are you sure you want to delete this room?');">
+<button type="submit" class="btn delete" onclick="return confirm('Are you sure you want to delete this room?');" aria-label="Delete room">
 <i class="fas fa-trash-alt"></i> Delete Room
 </button>
 </form>
-<a href="/rooms" class="btn back">
+<a href="/rooms" class="btn back" aria-label="Go back to all rooms">
 <i class="fas fa-arrow-left"></i> Back to Rooms
 </a>
-<a href="/" class="btn home">
+<a href="/" class="btn home" aria-label="Return to home page">
 <i class="fas fa-home"></i> Back to Home
 </a>
 </div>

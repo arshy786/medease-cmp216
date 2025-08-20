@@ -4,51 +4,110 @@
 <meta charset="UTF-8">
 <title>➕ Add New Patient – MedEase</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Stylesheets and Scripts -->
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <script defer src="/js/darkmode.js"></script>
 </head>
 <body>
 <div class="container">
+<!-- Header -->
 <header>
 <h1><i class="fas fa-user-plus"></i> Add New Patient</h1>
 <p>Please fill in the form below to register a new patient into the MedEase system.</p>
 <%- include('../partials/darkmode_toggle.ejs') %>
 </header>
-<!-- ✅ Flash message for errors -->
+<!-- Flash Messages -->
 <% if (locals.error_msg && error_msg.length > 0) { %>
 <div class="alert error" role="alert">
 <i class="fas fa-exclamation-triangle"></i> <%= error_msg %>
 </div>
 <% } %>
-<!-- ✅ Flash message for success -->
 <% if (locals.success_msg && success_msg.length > 0) { %>
 <div class="alert success" role="alert">
 <i class="fas fa-check-circle"></i> <%= success_msg %>
 </div>
 <% } %>
+<!-- New Patient Form -->
 <form action="/patients" method="POST" class="form-card" aria-label="Add new patient form">
-<label for="name"><i class="fas fa-user"></i> Full Name:</label>
-<input type="text" id="name" name="name" placeholder="e.g. John Smith" autocomplete="name" required>
-<label for="age"><i class="fas fa-hourglass-half"></i> Age:</label>
-<input type="number" id="age" name="age" min="0" placeholder="e.g. 45" autocomplete="off" required>
-<label for="gender"><i class="fas fa-venus-mars"></i> Gender:</label>
-<select id="gender" name="gender" required>
+<!-- Full Name -->
+<label for="name">
+<i class="fas fa-user"></i> Full Name:
+</label>
+<input
+     type="text"
+     id="name"
+     name="name"
+     placeholder="e.g. John Smith"
+     autocomplete="name"
+     required
+     aria-required="true"
+>
+<!-- Age -->
+<label for="age">
+<i class="fas fa-hourglass-half"></i> Age:
+</label>
+<input
+     type="number"
+     id="age"
+     name="age"
+     min="0"
+     placeholder="e.g. 45"
+     autocomplete="off"
+     required
+     aria-required="true"
+>
+<!-- Gender -->
+<label for="gender">
+<i class="fas fa-venus-mars"></i> Gender:
+</label>
+<select id="gender" name="gender" required aria-required="true">
 <option value="">-- Select Gender --</option>
 <option value="Male">♂️ Male</option>
 <option value="Female">♀️ Female</option>
 <option value="Other">🧬 Other</option>
 </select>
-<label for="contactNumber"><i class="fas fa-phone-alt"></i> Contact Number:</label>
-<input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9\s+]+" placeholder="e.g. 07123 456789" autocomplete="tel" required>
-<label for="address"><i class="fas fa-map-marker-alt"></i> Address:</label>
-<textarea id="address" name="address" placeholder="e.g. 123 Example Street, Newcastle" rows="3" autocomplete="street-address" required></textarea>
+<!-- Contact Number -->
+<label for="contactNumber">
+<i class="fas fa-phone-alt"></i> Contact Number:
+</label>
+<input
+     type="tel"
+     id="contactNumber"
+     name="contactNumber"
+     pattern="[\d\s+]+"
+     placeholder="e.g. 07123 456789"
+     autocomplete="tel"
+     required
+     aria-required="true"
+>
+<!-- Address -->
+<label for="address">
+<i class="fas fa-map-marker-alt"></i> Address:
+</label>
+<textarea
+     id="address"
+     name="address"
+     placeholder="e.g. 123 Example Street, Newcastle"
+     rows="3"
+     autocomplete="street-address"
+     required
+     aria-required="true"
+></textarea>
+<!-- Action Buttons -->
 <div class="button-group" style="margin-top: 20px;">
-<button type="submit" class="btn"><i class="fas fa-save"></i> Save Patient</button>
-<a href="/patients" class="btn back"><i class="fas fa-arrow-left"></i> Cancel</a>
-<a href="/" class="btn home"><i class="fas fa-home"></i> Home</a>
+<button type="submit" class="btn">
+<i class="fas fa-save"></i> Save Patient
+</button>
+<a href="/patients" class="btn back">
+<i class="fas fa-arrow-left"></i> Cancel
+</a>
+<a href="/" class="btn home">
+<i class="fas fa-home"></i> Home
+</a>
 </div>
 </form>
+<!-- Footer -->
 <footer>
 <p>&copy; 2025 Arshad Aslam – CMP216 Web Applications and Cloud Services</p>
 </footer>

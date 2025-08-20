@@ -562,3 +562,83 @@ success is not defined
 
 success is not defined
 [2025-08-19 22:54:51] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:07] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:57:07] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:25] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:26] ERROR: 404 - Not Found - /favicon.ico
+[2025-08-19 22:57:28] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:30] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:57:30] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:31] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:33] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:36] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:38] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:42] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:44] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:45] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:56] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:57:58] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:00] ERROR: 404 - Not Found - /patients/edit/68a501742a4c2cdae348fd9b
+[2025-08-19 22:58:00] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:07] ERROR: 404 - Not Found - /patients/edit/68a501742a4c2cdae348fd9b
+[2025-08-19 22:58:07] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:11] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:15] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:16] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:18] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:58:18] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:22] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:23] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 22:58:23] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 22:58:24] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:02:48] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:02:49] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-19 23:02:49] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:02:51] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:02:52] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:02:53] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:14:35] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:14:37] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:14:39] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-19 23:14:42] ERROR: 404 - Not Found - /patients/edit/68a501742a4c2cdae348fd9b
+[2025-08-19 23:14:42] ERROR: 404 - Not Found - /js/darkmode.js

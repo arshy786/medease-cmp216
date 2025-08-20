@@ -19,29 +19,32 @@
 </header>
 <!-- Flash Messages -->
 <% if (success) { %>
-<div class="alert success">
+<div class="alert success" role="alert">
 <i class="fas fa-check-circle"></i> <%= success %>
 </div>
 <% } %>
 <% if (error) { %>
-<div class="alert error">
+<div class="alert error" role="alert">
 <i class="fas fa-exclamation-triangle"></i> <%= error %>
 </div>
 <% } %>
 <!-- Main Form Section -->
 <main>
 <form action="/rooms" method="POST" class="form-card" aria-label="New room registration form">
+<fieldset>
+<legend><i class="fas fa-info-circle"></i> Room Information</legend>
 <!-- Room Number -->
 <label for="roomNumber">
 <i class="fas fa-hashtag"></i> Room Number:
 </label>
 <input
-         type="text"
-         name="roomNumber"
-         id="roomNumber"
-         placeholder="e.g. A103"
-         required
-         aria-required="true"
+           type="text"
+           name="roomNumber"
+           id="roomNumber"
+           placeholder="e.g. A103"
+           required
+           aria-required="true"
+           autocomplete="off"
 >
 <!-- Room Type -->
 <label for="type">
@@ -55,19 +58,20 @@
 <option value="Paediatric">🧸 Paediatric</option>
 </select>
 <!-- Occupied Checkbox -->
-<label for="isOccupied" class="checkbox-label">
+<label for="isOccupied" class="checkbox-label" style="margin-top: 10px;">
 <input type="checkbox" name="isOccupied" id="isOccupied">
 <i class="fas fa-procedures"></i> Room is currently occupied
 </label>
+</fieldset>
 <!-- Action Buttons -->
 <div class="button-group" style="margin-top: 20px;">
-<button type="submit" class="btn primary">
+<button type="submit" class="btn primary" aria-label="Save this new room">
 <i class="fas fa-save"></i> Save Room
 </button>
-<a href="/rooms" class="btn back">
+<a href="/rooms" class="btn back" aria-label="Cancel and return to room list">
 <i class="fas fa-arrow-left"></i> Cancel
 </a>
-<a href="/" class="btn home">
+<a href="/" class="btn home" aria-label="Return to home page">
 <i class="fas fa-home"></i> Back to Home
 </a>
 </div>

@@ -16,8 +16,12 @@
 <%- include('../partials/darkmode_toggle.ejs') %>
 </header>
 <div class="button-group" style="text-align: center; margin: 20px 0;">
-<a href="/patients/new" class="btn add"><i class="fas fa-user-plus"></i> Add New Patient</a>
-<a href="/" class="btn home"><i class="fas fa-home"></i> Back to Home</a>
+<a href="/patients/new" class="btn add" aria-label="Add new patient">
+<i class="fas fa-user-plus"></i> Add New Patient
+</a>
+<a href="/" class="btn home" aria-label="Return to homepage">
+<i class="fas fa-home"></i> Back to Home
+</a>
 </div>
 <% if (patients.length === 0) { %>
 <p class="notice" role="alert">⚠️ No patients currently registered. Please add a patient to begin.</p>
@@ -37,7 +41,7 @@
 <% patients.forEach(patient => { %>
 <tr>
 <td><%= patient.name || 'N/A' %></td>
-<td><%= patient.age !== undefined ? patient.age : 'N/A' %></td>
+<td><%= typeof patient.age === 'number' ? patient.age : 'N/A' %></td>
 <td><%= patient.gender || 'N/A' %></td>
 <td><%= patient.contactNumber || 'N/A' %></td>
 <td>
