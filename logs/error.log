@@ -642,3 +642,45 @@ success is not defined
 [2025-08-19 23:14:39] ERROR: 404 - Not Found - /js/darkmode.js
 [2025-08-19 23:14:42] ERROR: 404 - Not Found - /patients/edit/68a501742a4c2cdae348fd9b
 [2025-08-19 23:14:42] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:05:54] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:02] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:04] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:15] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:17] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:19] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:27] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:32] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:33] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:35] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success" role="alert">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-20 00:06:35] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:37] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:40] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success" role="alert">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-20 00:06:40] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:49] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:56] ERROR: 500 - /app/views/rooms/new_room.ejs:21
+    19| </header>
+    20| <!-- Flash Messages -->
+ >> 21| <% if (success) { %>
+    22| <div class="alert success" role="alert">
+    23| <i class="fas fa-check-circle"></i> <%= success %>
+    24| </div>
+
+success is not defined
+[2025-08-20 00:06:56] ERROR: 404 - Not Found - /js/darkmode.js
+[2025-08-20 00:06:59] ERROR: 404 - Not Found - /js/darkmode.js

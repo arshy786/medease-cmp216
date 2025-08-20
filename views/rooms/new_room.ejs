@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>➕ Add New Room – MedEase</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Stylesheets and Scripts -->
+<!-- Styles and Icons -->
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <script defer src="/js/darkmode.js"></script>
@@ -14,21 +14,21 @@
 <!-- Header Section -->
 <header>
 <h1><i class="fas fa-door-open"></i> Add a New Room</h1>
-<p>Register a hospital room to the MedEase system.</p>
+<p>Register a hospital room into the MedEase system.</p>
 <%- include('../partials/darkmode_toggle.ejs') %>
 </header>
 <!-- Flash Messages -->
-<% if (success) { %>
+<% if (locals.success_msg) { %>
 <div class="alert success" role="alert">
-<i class="fas fa-check-circle"></i> <%= success %>
+<i class="fas fa-check-circle"></i> <%= success_msg %>
 </div>
 <% } %>
-<% if (error) { %>
+<% if (locals.error_msg) { %>
 <div class="alert error" role="alert">
-<i class="fas fa-exclamation-triangle"></i> <%= error %>
+<i class="fas fa-exclamation-triangle"></i> <%= error_msg %>
 </div>
 <% } %>
-<!-- Main Form Section -->
+<!-- Form Section -->
 <main>
 <form action="/rooms" method="POST" class="form-card" aria-label="New room registration form">
 <fieldset>
